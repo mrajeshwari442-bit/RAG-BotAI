@@ -873,7 +873,7 @@ def status():
 
 @app.route(
     "/api/delete",
-    methods=["DELETE"]
+    methods=["POST", "DELETE"]
 )
 def delete_document():
 
